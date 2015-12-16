@@ -1,0 +1,15 @@
+{
+  "name": "htmlincludes",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "preversion": "npm run test",
+    "lint": "standard",
+    "test": "npm run lint"
+  },
+  "repository": "github:sonnyp/HTMLIncludes",
+  "author": "Sonny Piers <sonny@fastmail.net>",
+  "license": "ISC",
+  "bugs": "https://github.com/sonnyp/HTMLIncludes/issues",
+  "homepage": "https://github.com/sonnyp/HTMLIncludes#readme"
+}

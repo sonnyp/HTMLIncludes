@@ -1,0 +1,45 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#sidebar, #tabs {
+  display: inline-block;
+  height: 100%;
+  vertical-align: top;
+}
+
+#sidebar {
+  width: 300px;
+}
+
+#tabs {
+  width: calc(100% - 300px);
+  width: -o-calc(100% - 300px);
+  width: -ms-calc(100% - 300px);
+  width: -moz-calc(100% - 300px);
+  width: -webkit-calc(100% - 300px);
+}
+
+#sidebar button {
+  height: 80px;
+  width: 100%;
+  display: block;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+x-include {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+x-include img {
+  max-height: 50px;
+  max-width: 50px;
+}
+x-include[hidden] {
+  display: none;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTMLInclude example</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="../include.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="../Include.js"></script>
+    <script src="../include.js"></script>
+  </head>
+
+  <body>
+    <div id="sidebar">
+      <button class="A">A</button>
+      <button class="B">B</button>
+      <button class="C">C</button>
+    </div>
+    <div id="tabs">
+      <x-include class="A" src="fragments/A"></x-include>
+      <x-include class="B" hidden="hidden" src="fragments/B"></x-include>
+      <x-include class="C" hidden="hidden" src="fragments/C"></x-include>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
